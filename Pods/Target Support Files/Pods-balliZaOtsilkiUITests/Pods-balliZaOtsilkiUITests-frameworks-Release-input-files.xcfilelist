@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-balliZaOtsilkiUITests/Pods-balliZaOtsilkiUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-iOS14.3/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS14.3/GoogleUtilities.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift-iOS14.3/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/PromisesObjC-iOS14.3/FBLPromises.framework
+${BUILT_PRODUCTS_DIR}/Protobuf-iOS14.3/Protobuf.framework
+${BUILT_PRODUCTS_DIR}/QuickLayout-iOS14.3/QuickLayout.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage-iOS14.3/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftEntryKit-iOS14.3/SwiftEntryKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper-iOS14.3/SwiftKeychainWrapper.framework
+${BUILT_PRODUCTS_DIR}/leveldb-library-iOS14.3/leveldb.framework
+${BUILT_PRODUCTS_DIR}/nanopb-iOS14.3/nanopb.framework

@@ -1,0 +1,6 @@
+framework module Pods_balliZaOtsilki {
+  umbrella header "Pods-balliZaOtsilki-umbrella.h"
+
+  export *
+  module * { export * }
+}

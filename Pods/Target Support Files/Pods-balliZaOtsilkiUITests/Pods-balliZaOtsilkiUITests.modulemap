@@ -1,0 +1,6 @@
+framework module Pods_balliZaOtsilkiUITests {
+  umbrella header "Pods-balliZaOtsilkiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
