@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17700" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Tutorial View Controller-->
+        <scene sceneID="TBh-Hf-ciO">
+            <objects>
+                <viewController storyboardIdentifier="TutorialViewController" id="lPr-dN-LN0" customClass="TutorialViewController" customModule="balliZaOtsilki" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yHe-0V-nUG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9c-fL-vnS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" name="Background Color"/>
+                                <connections>
+                                    <segue destination="mI0-E5-3jx" kind="embed" identifier="showPageViewController" id="qJ2-fb-jsl"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXV-Ph-KDQ">
+                                <rect key="frame" x="16" y="614" width="99" height="33"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="18"/>
+                                <state key="normal" title="Пропустить">
+                                    <color key="titleColor" name="Secondary Button Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnCloseButton:" destination="lPr-dN-LN0" eventType="touchUpInside" id="dan-gx-nm3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmM-jt-mvR">
+                                <rect key="frame" x="306" y="614" width="53" height="33"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="18"/>
+                                <state key="normal" title="Далее">
+                                    <color key="titleColor" name="Button Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnNextButton:" destination="lPr-dN-LN0" eventType="touchUpInside" id="Cuk-eq-X5P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SSA-lJ-RLL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="bottom" secondItem="D9c-fL-vnS" secondAttribute="bottom" id="6y8-8D-WCt"/>
+                            <constraint firstItem="D9c-fL-vnS" firstAttribute="top" secondItem="yHe-0V-nUG" secondAttribute="top" id="AcT-RH-GV8"/>
+                            <constraint firstItem="D9c-fL-vnS" firstAttribute="top" secondItem="SSA-lJ-RLL" secondAttribute="top" id="E1A-eD-WFb"/>
+                            <constraint firstItem="D9c-fL-vnS" firstAttribute="leading" secondItem="SSA-lJ-RLL" secondAttribute="leading" id="Hkd-PJ-vw9"/>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="bottom" secondItem="LXV-Ph-KDQ" secondAttribute="bottom" constant="20" id="MlE-iN-FDZ"/>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="bottom" secondItem="D9c-fL-vnS" secondAttribute="bottom" id="RMw-TY-7fm"/>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="bottom" secondItem="tmM-jt-mvR" secondAttribute="bottom" constant="20" id="efg-ja-gjK"/>
+                            <constraint firstItem="D9c-fL-vnS" firstAttribute="leading" secondItem="SSA-lJ-RLL" secondAttribute="leading" id="sAh-95-XEF"/>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="trailing" secondItem="D9c-fL-vnS" secondAttribute="trailing" id="szy-xE-wmG"/>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="trailing" secondItem="tmM-jt-mvR" secondAttribute="trailing" constant="16" id="uMp-By-y9U"/>
+                            <constraint firstItem="LXV-Ph-KDQ" firstAttribute="leading" secondItem="SSA-lJ-RLL" secondAttribute="leading" constant="16" id="y97-Q4-6LP"/>
+                            <constraint firstItem="SSA-lJ-RLL" firstAttribute="trailing" secondItem="D9c-fL-vnS" secondAttribute="trailing" id="yHe-vi-XuP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7wy-gZ-zes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1283" y="7"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="3DZ-gA-fDa">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="mI0-E5-3jx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1G-oS-jEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="7"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hM2-nV-g1E">
+            <objects>
+                <viewController storyboardIdentifier="quickTourController1" id="2BX-PN-od9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LIJ-7D-8cy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hs-TO-GL2">
+                                <rect key="frame" x="181" y="319.5" width="13.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="24"/>
+                                <color key="textColor" name="Label Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="brL-BF-86g"/>
+                        <color key="backgroundColor" name="Background Color"/>
+                        <constraints>
+                            <constraint firstItem="5hs-TO-GL2" firstAttribute="centerY" secondItem="LIJ-7D-8cy" secondAttribute="centerY" id="3w7-eM-DZg"/>
+                            <constraint firstItem="5hs-TO-GL2" firstAttribute="centerX" secondItem="LIJ-7D-8cy" secondAttribute="centerX" id="txK-CP-iaa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLe-ha-sQ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="7"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EyY-iu-AzB">
+            <objects>
+                <viewController storyboardIdentifier="quickTourController2" id="ODr-4x-xVu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i9R-Ug-1oC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCs-1I-oH8">
+                                <rect key="frame" x="181" y="319.5" width="13.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="24"/>
+                                <color key="textColor" name="Label Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GBN-Yc-7Iq"/>
+                        <color key="backgroundColor" name="Background Color"/>
+                        <constraints>
+                            <constraint firstItem="vCs-1I-oH8" firstAttribute="centerX" secondItem="i9R-Ug-1oC" secondAttribute="centerX" id="Jb9-sy-bof"/>
+                            <constraint firstItem="vCs-1I-oH8" firstAttribute="centerY" secondItem="i9R-Ug-1oC" secondAttribute="centerY" id="ZrM-QW-lT6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oSX-bx-7KZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033" y="7"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wdP-SY-dJo">
+            <objects>
+                <viewController storyboardIdentifier="quickTourController3" id="nIp-56-ioe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YAg-Ev-6Vq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iE1-hf-okB">
+                                <rect key="frame" x="181" y="319.5" width="13.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="24"/>
+                                <color key="textColor" name="Label Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EAf-aA-jyJ"/>
+                        <color key="backgroundColor" name="Background Color"/>
+                        <constraints>
+                            <constraint firstItem="iE1-hf-okB" firstAttribute="centerY" secondItem="YAg-Ev-6Vq" secondAttribute="centerY" id="JCR-lo-MBu"/>
+                            <constraint firstItem="iE1-hf-okB" firstAttribute="centerX" secondItem="YAg-Ev-6Vq" secondAttribute="centerX" id="wwm-rr-bCr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cze-Ls-Bag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1778" y="7"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4tT-vX-4NX">
+            <objects>
+                <viewController storyboardIdentifier="quickTourController4" id="0h8-lj-9p5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MUQ-qH-nf8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiW-op-mxn">
+                                <rect key="frame" x="181" y="319.5" width="13.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="24"/>
+                                <color key="textColor" name="Label Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rKy-4P-A9L"/>
+                        <color key="backgroundColor" name="Background Color"/>
+                        <constraints>
+                            <constraint firstItem="aiW-op-mxn" firstAttribute="centerX" secondItem="MUQ-qH-nf8" secondAttribute="centerX" id="9hF-QM-lEw"/>
+                            <constraint firstItem="aiW-op-mxn" firstAttribute="centerY" secondItem="MUQ-qH-nf8" secondAttribute="centerY" id="AUV-Zw-oex"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="53Q-jn-Tia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2545" y="7"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Background Color">
+            <color red="0.14117647058823529" green="0.0" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Button Color">
+            <color red="0.8784313725490196" green="0.66666666666666663" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Label Color">
+            <color red="0.8784313725490196" green="0.66666666666666663" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary Button Color">
+            <color red="0.61568627450980395" green="0.30588235294117649" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

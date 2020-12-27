@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		43C9F20E4331FBBEF88FCC70 /* Pods_balliZaOtsilkiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881AC14A79232A177E3394BC /* Pods_balliZaOtsilkiTests.framework */; };
 		7D46008B258F57A90074C5DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46008A258F57A90074C5DC /* AppDelegate.swift */; };
-		7D46008F258F57A90074C5DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46008E258F57A90074C5DC /* ViewController.swift */; };
 		7D460092258F57A90074C5DC /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D460090258F57A90074C5DC /* Content.storyboard */; };
 		7D460094258F57AA0074C5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D460093258F57AA0074C5DC /* Assets.xcassets */; };
 		7D460097258F57AA0074C5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D460095258F57AA0074C5DC /* LaunchScreen.storyboard */; };
@@ -76,6 +75,17 @@
 		7D4601F7258F61950074C5DC /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4601F5258F61950074C5DC /* ImageService.swift */; };
 		7D460200258F61D60074C5DC /* PictureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4601FF258F61D60074C5DC /* PictureModel.swift */; };
 		7D460208258F62510074C5DC /* ErrorsHandlerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D460207258F62510074C5DC /* ErrorsHandlerInterface.swift */; };
+		7DEB80DA2598BE0F00A12036 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB80D72598BE0F00A12036 /* Nunito-Regular.ttf */; };
+		7DEB80DB2598BE0F00A12036 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB80D82598BE0F00A12036 /* Nunito-Light.ttf */; };
+		7DEB80DC2598BE0F00A12036 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB80D92598BE0F00A12036 /* Nunito-Bold.ttf */; };
+		7DEB80E72598BE8200A12036 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB80E62598BE8200A12036 /* RootViewController.swift */; };
+		7DEB80EC2598BE9C00A12036 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB80EB2598BE9C00A12036 /* RootInteractor.swift */; };
+		7DEB80F12598BEA500A12036 /* RootProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB80F02598BEA500A12036 /* RootProtocols.swift */; };
+		7DEB80F62598BF5500A12036 /* BiometicIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB80F52598BF5500A12036 /* BiometicIDAuth.swift */; };
+		7DEB80FC2598BFFE00A12036 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEB80FB2598BFFE00A12036 /* Tutorial.storyboard */; };
+		7DEB81012598C00C00A12036 /* TutorialWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB81002598C00C00A12036 /* TutorialWireframe.swift */; };
+		7DEB81062598C01300A12036 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB81052598C01300A12036 /* TutorialViewController.swift */; };
+		7DEB81462598C5AD00A12036 /* TutorialDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB81452598C5AD00A12036 /* TutorialDataWrapper.swift */; };
 		92262445268DAC726397A9CA /* Pods_balliZaOtsilkiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16364A9820418CD6A4B8685 /* Pods_balliZaOtsilkiUITests.framework */; };
 		FC9C881F98BD85A9F4C6719D /* Pods_balliZaOtsilki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEFBD0C869C625FB3A570E9 /* Pods_balliZaOtsilki.framework */; };
 /* End PBXBuildFile section */
@@ -102,7 +112,6 @@
 		6ECCF34DB2CB99145721444D /* Pods-balliZaOtsilkiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balliZaOtsilkiTests.debug.xcconfig"; path = "Target Support Files/Pods-balliZaOtsilkiTests/Pods-balliZaOtsilkiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D460087258F57A90074C5DC /* balliZaOtsilki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balliZaOtsilki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D46008A258F57A90074C5DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D46008E258F57A90074C5DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D460091258F57A90074C5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Content.storyboard; sourceTree = "<group>"; };
 		7D460093258F57AA0074C5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D460096258F57AA0074C5DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -174,6 +183,17 @@
 		7D4601F5258F61950074C5DC /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		7D4601FF258F61D60074C5DC /* PictureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureModel.swift; sourceTree = "<group>"; };
 		7D460207258F62510074C5DC /* ErrorsHandlerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorsHandlerInterface.swift; sourceTree = "<group>"; };
+		7DEB80D72598BE0F00A12036 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		7DEB80D82598BE0F00A12036 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		7DEB80D92598BE0F00A12036 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		7DEB80E62598BE8200A12036 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7DEB80EB2598BE9C00A12036 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		7DEB80F02598BEA500A12036 /* RootProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootProtocols.swift; sourceTree = "<group>"; };
+		7DEB80F52598BF5500A12036 /* BiometicIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometicIDAuth.swift; sourceTree = "<group>"; };
+		7DEB80FB2598BFFE00A12036 /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		7DEB81002598C00C00A12036 /* TutorialWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialWireframe.swift; sourceTree = "<group>"; };
+		7DEB81052598C01300A12036 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		7DEB81452598C5AD00A12036 /* TutorialDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialDataWrapper.swift; sourceTree = "<group>"; };
 		881AC14A79232A177E3394BC /* Pods_balliZaOtsilkiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balliZaOtsilkiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E885CBE58A9CBBB4D66EA03 /* Pods-balliZaOtsilkiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-balliZaOtsilkiUITests.debug.xcconfig"; path = "Target Support Files/Pods-balliZaOtsilkiUITests/Pods-balliZaOtsilkiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A16364A9820418CD6A4B8685 /* Pods_balliZaOtsilkiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_balliZaOtsilkiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,7 +262,6 @@
 				7D4600DA258F59350074C5DC /* Sources */,
 				7D4600DB258F59400074C5DC /* Supporting Files */,
 				7D4600DC258F59480074C5DC /* Localization */,
-				7D46008E258F57A90074C5DC /* ViewController.swift */,
 			);
 			path = balliZaOtsilki;
 			sourceTree = "<group>";
@@ -269,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				7D460093258F57AA0074C5DC /* Assets.xcassets */,
+				7DEB80D62598BDF700A12036 /* Fonts */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -283,6 +303,7 @@
 				7D4600DF258F59750074C5DC /* DataLayer */,
 				7D4600E0258F597C0074C5DC /* Logger */,
 				7D4600E1258F59810074C5DC /* Root */,
+				7DEB80FA2598BFE800A12036 /* Tutorial */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -357,6 +378,10 @@
 		7D4600E3258F59920074C5DC /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				7DEB80F52598BF5500A12036 /* BiometicIDAuth.swift */,
+				7DEB80E62598BE8200A12036 /* RootViewController.swift */,
+				7DEB80EB2598BE9C00A12036 /* RootInteractor.swift */,
+				7DEB80F02598BEA500A12036 /* RootProtocols.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -526,6 +551,7 @@
 		7D4601A5258F5DAC0074C5DC /* Storages */ = {
 			isa = PBXGroup;
 			children = (
+				7DEB81452598C5AD00A12036 /* TutorialDataWrapper.swift */,
 				7D4601A6258F5DB20074C5DC /* BiometricDataWrapper.swift */,
 				7D4601A8258F5DB20074C5DC /* LocationDataWrapper.swift */,
 				7D4601A7258F5DB20074C5DC /* TemporaryStorage.swift */,
@@ -539,6 +565,26 @@
 				7D4601F5258F61950074C5DC /* ImageService.swift */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		7DEB80D62598BDF700A12036 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB80D92598BE0F00A12036 /* Nunito-Bold.ttf */,
+				7DEB80D82598BE0F00A12036 /* Nunito-Light.ttf */,
+				7DEB80D72598BE0F00A12036 /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7DEB80FA2598BFE800A12036 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				7DEB80FB2598BFFE00A12036 /* Tutorial.storyboard */,
+				7DEB81052598C01300A12036 /* TutorialViewController.swift */,
+				7DEB81002598C00C00A12036 /* TutorialWireframe.swift */,
+			);
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 		F51E23E1CFA9980C167DB8BF /* Pods */ = {
@@ -673,11 +719,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEB80FC2598BFFE00A12036 /* Tutorial.storyboard in Resources */,
 				7D460188258F5C910074C5DC /* ReloadContentView.xib in Resources */,
 				7D460097258F57AA0074C5DC /* LaunchScreen.storyboard in Resources */,
 				7D460094258F57AA0074C5DC /* Assets.xcassets in Resources */,
 				7D460185258F5C910074C5DC /* NothingView.xib in Resources */,
+				7DEB80DC2598BE0F00A12036 /* Nunito-Bold.ttf in Resources */,
+				7DEB80DA2598BE0F00A12036 /* Nunito-Regular.ttf in Resources */,
 				7D460092258F57A90074C5DC /* Content.storyboard in Resources */,
+				7DEB80DB2598BE0F00A12036 /* Nunito-Light.ttf in Resources */,
 				7D4601B3258F5E9E0074C5DC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -823,7 +873,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D46008F258F57A90074C5DC /* ViewController.swift in Sources */,
 				7D460122258F5AD90074C5DC /* MKMapView+Extensions.swift in Sources */,
 				7D460136258F5B270074C5DC /* GradientView.swift in Sources */,
 				7D460116258F5AD90074C5DC /* Date+Extensions.swift in Sources */,
@@ -847,20 +896,26 @@
 				7D460167258F5C0C0074C5DC /* ServicesContainer.swift in Sources */,
 				7D460117258F5AD90074C5DC /* UISearchBar+Extensions.swift in Sources */,
 				7D460182258F5C910074C5DC /* StatesViewsHandler.swift in Sources */,
+				7DEB80F12598BEA500A12036 /* RootProtocols.swift in Sources */,
 				7D460128258F5AD90074C5DC /* NSNumber+Extensions.swift in Sources */,
+				7DEB81462598C5AD00A12036 /* TutorialDataWrapper.swift in Sources */,
+				7DEB80F62598BF5500A12036 /* BiometicIDAuth.swift in Sources */,
 				7D4600F3258F5A7F0074C5DC /* ParserHelper.swift in Sources */,
 				7D460181258F5C910074C5DC /* StatesViewsDataSource.swift in Sources */,
 				7D4600FA258F5AB70074C5DC /* ErrorsFactory.swift in Sources */,
 				7D460121258F5AD90074C5DC /* URL+Extensions.swift in Sources */,
 				7D460186258F5C910074C5DC /* ReloadContentView.swift in Sources */,
 				7D4601A9258F5DB20074C5DC /* BiometricDataWrapper.swift in Sources */,
+				7DEB81062598C01300A12036 /* TutorialViewController.swift in Sources */,
 				7D460208258F62510074C5DC /* ErrorsHandlerInterface.swift in Sources */,
 				7D460183258F5C910074C5DC /* ErrorView.swift in Sources */,
 				7D4600EC258F5A4B0074C5DC /* APIInterface.swift in Sources */,
 				7D4600F4258F5A7F0074C5DC /* JSONMappingObjectProtocol.swift in Sources */,
 				7D46014F258F5B7B0074C5DC /* BaseViewController.swift in Sources */,
+				7DEB80EC2598BE9C00A12036 /* RootInteractor.swift in Sources */,
 				7D46014A258F5B7B0074C5DC /* BaseWireframe.swift in Sources */,
 				7D460129258F5AD90074C5DC /* FIFOQueue.swift in Sources */,
+				7DEB81012598C00C00A12036 /* TutorialWireframe.swift in Sources */,
 				7D46016E258F5C470074C5DC /* LocationService.swift in Sources */,
 				7D46016D258F5C470074C5DC /* BaseService.swift in Sources */,
 				7D460197258F5CD10074C5DC /* Constants.swift in Sources */,
@@ -874,6 +929,7 @@
 				7D46014D258F5B7B0074C5DC /* BaseInteractor.swift in Sources */,
 				7D46011A258F5AD90074C5DC /* UIView+Extensions.swift in Sources */,
 				7D46019C258F5CF90074C5DC /* BaseModel.swift in Sources */,
+				7DEB80E72598BE8200A12036 /* RootViewController.swift in Sources */,
 				7D46014E258F5B7B0074C5DC /* AlertController.swift in Sources */,
 				7D460125258F5AD90074C5DC /* Sequence+Extensions.swift in Sources */,
 				7D46011E258F5AD90074C5DC /* UIImage+Extensions.swift in Sources */,

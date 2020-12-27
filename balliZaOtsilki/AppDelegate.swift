@@ -35,18 +35,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     
     fileprivate func setupUIAppearance() {
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: ApplicationColors.textColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)]
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ApplicationColors.textColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .normal)
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: ApplicationColors.labelColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)]
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ApplicationColors.labelColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .normal)
         
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ApplicationColors.textColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .highlighted)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ApplicationColors.labelColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .highlighted)
         
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ApplicationColors.textColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .focused)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: ApplicationColors.labelColor, NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .focused)
         
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: ApplicationFonts.mediumWithSize(16)], for: .disabled)
         
-        UINavigationBar.appearance().barTintColor = ApplicationColors.textColor
-        UINavigationBar.appearance().tintColor = ApplicationColors.textColor
-        UIBarButtonItem.appearance().tintColor = ApplicationColors.textColor
+        UINavigationBar.appearance().barTintColor = ApplicationColors.labelColor
+        UINavigationBar.appearance().tintColor = ApplicationColors.labelColor
+        UIBarButtonItem.appearance().tintColor = ApplicationColors.labelColor
         
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
@@ -68,20 +68,20 @@ extension AppDelegate {
     fileprivate func initFrameworks() {
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.placeholderFont = ApplicationFonts.mediumWithSize(14)
-        IQKeyboardManager.shared.toolbarTintColor = ApplicationColors.textColor
+        IQKeyboardManager.shared.toolbarTintColor = ApplicationColors.labelColor
         
         FirebaseApp.configure()
     }
     
     fileprivate func configureRootViewController() {
-//        let storyboard = UIStoryboard(name: "Content", bundle: nil)
-//        let rootViewController: (RootOutputProtocol & UIViewController) = storyboard.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
-//        let interactor: RootInputProtocol = RootInteractor()
-//        rootViewController.interactor = interactor
-//        interactor.view = rootViewController
-//        if let window = self.window {
-//            window.rootViewController = rootViewController
-//        }
+        let storyboard = UIStoryboard(name: "Content", bundle: nil)
+        let rootViewController: (RootOutputProtocol & UIViewController) = storyboard.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
+        let interactor: RootInputProtocol = RootInteractor()
+        rootViewController.interactor = interactor
+        interactor.view = rootViewController
+        if let window = self.window {
+            window.rootViewController = rootViewController
+        }
     }
     
 }

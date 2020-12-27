@@ -18,7 +18,7 @@ class LoadingView: UIView {
         let loader = UIActivityIndicatorView()
         loader.hidesWhenStopped = true
         loader.style = .whiteLarge
-        loader.color = ApplicationColors.textColor
+        loader.color = ApplicationColors.labelColor
         return loader
     }()
     

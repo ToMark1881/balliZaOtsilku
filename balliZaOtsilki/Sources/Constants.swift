@@ -32,76 +32,28 @@ struct DeviceType {
 
 struct ApplicationColors {
     
-    static let darkColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.label.withAlphaComponent(0.95)
-        }
-        else {
-            return UIColor(red: 0.05, green: 0.05, blue: 0.05, alpha: 1)
-        }
+    static let labelColor: UIColor = {
+        return UIColor(named: "Label Color")!
     }()
     
-    static let textColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.label
-        }
-        else {
-            return UIColor.black
-        }
+    static let secondaryLabelColor: UIColor = {
+        return UIColor(named: "Secondary Label Color")!
     }()
     
-    static let grayColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.systemGray
-        }
-        else {
-            return UIColor(red: 0.538, green: 0.538, blue: 0.538, alpha: 1)
-        }
+    static let buttonColor: UIColor = {
+        return UIColor(named: "Button Color")!
     }()
     
-    static let lightgrayColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.lightGray
-        }
-        else {
-            return UIColor(red: 0.871, green: 0.871, blue: 0.871, alpha: 1)
-        }
-    }()
-    
-    static let snowColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.secondarySystemBackground
-        }
-        else {
-            return UIColor(red: 0.979, green: 0.979, blue: 0.979, alpha: 1)
-        }
+    static let secondaryButtonColor: UIColor = {
+        return UIColor(named: "Secondary Button Color")!
     }()
     
     static let backgroundColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.tertiarySystemBackground
-        }
-        else {
-            return UIColor(white: 1, alpha: 1)
-        }
+        return UIColor(named: "Background Color")!
     }()
     
     static let secondaryBackgroundColor: UIColor = {
-        if #available(iOS 13.0, *) {
-            return UIColor.secondarySystemBackground
-        }
-        else {
-            return UIColor(white: 1, alpha: 1)
-        }
-    }()
-    
-    static let yellowColor: UIColor = {
-        return UIColor(red: 1, green: 0.945, blue: 0, alpha: 1)
-    }()
-    
-    
-    static let greenColor: UIColor = {
-        return UIColor(red: 0.114, green: 0.633, blue: 0.103, alpha: 1)
+        return UIColor(named: "Secondary Background Color")!
     }()
     
 }
@@ -109,15 +61,15 @@ struct ApplicationColors {
 struct ApplicationFonts {
     
     static func mediumWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "Montserrat-Medium", size: size)!
+        return UIFont(name: "Nunito-Regular", size: size)!
     }
     
     static func boldWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "Montserrat-Bold", size: size)!
+        return UIFont(name: "Nunito-Bold", size: size)!
     }
     
     static func lightWithSize(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "Montserrat-Light", size: size)!
+        return UIFont(name: "Nunito-Light", size: size)!
     }
     
 }
